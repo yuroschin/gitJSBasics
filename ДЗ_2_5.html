@@ -1,0 +1,36 @@
+<!- Реализовать основные 4 арифметические операции в виде функций с двумя параметрами. Обязательно использовать оператор return. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ДЗ Урок 2.  Задание 4.</title>
+  <script>
+    var a = prompt("Введите первое число: ");
+    var b = prompt("Введите второе число: ");
+    var c = prompt("Выберите операцию: 1 - сложение, 2 - вычитание, 3 - умножение, 4 - деление");
+    var answer;
+    
+    switch(c) {
+      case 1: 
+        answer = a+b;
+        break;
+      case 2: 
+        answer = a-b;
+        break;
+      case 3: 
+        answer = a*b;
+        break;
+      case 4: 
+        answer = a/b;
+        break;
+      default:
+        answer = "Выбрано недопустимое значение";
+    }
+    document.write(answer);
+  
+  </script>
+</head>
+<body>
+  
+</body>
+</html>
